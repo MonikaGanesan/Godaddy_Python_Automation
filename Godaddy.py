@@ -19,7 +19,6 @@ List = Driver.find_elements_by_class_name("custom-control-description")
 
 #Driver.find_element_by_name('24 months').click()
 time.sleep(5)
-print("Chekcing pull request as well as created a new branch")
 Driver.find_element_by_xpath("//label[@id='label-wordpress-openexchange-tier1.term.numberOfTerms.24-{termType}']").click()
 time.sleep(5)
 Driver.find_element_by_xpath("//label[@id='label-Add-Essential-Website-Security']").click()
